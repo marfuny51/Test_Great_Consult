@@ -1,0 +1,52 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #dbdada;
+}
+
+.header_content {
+    width: 1000px;
+    margin: auto;
+    padding-top: 23px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header_logo {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header_logo img{
+    width: 80px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.name_company {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    width: 115px;
+    margin-top: -5px;
+}
+
+.name_company p {
+    font-size: 9px;
+    font-weight: normal;
+}
+
+.header_phone {
+    margin-left: auto;
+}
+
+.header_phone a {
+    font-family: 'Roboto Mono', monospace;
+    color: grey;
+    text-decoration: none;
+}
+
+.f2 {
+    width: 100%;
+    height: 300px;
+    background-image: url('images/background.jpg');
+}
