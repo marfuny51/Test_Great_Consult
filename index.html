@@ -7,6 +7,7 @@
   <title>Test_Great_Consult</title>
   <link rel='stylesheet' href='style.css' type='text/css'>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/c609f307c0.js"></script>
 </head>
 
 <body>
@@ -61,9 +62,89 @@
 
   <div class='f5'>
     <div class='f5_content'>
-      <p>Калькулятор<br> (стоимость пользователь узнает по телефону)</p>
-
+      <p class='name'>Калькулятор<br> (стоимость пользователь узнает по телефону)</p>
+      <div class='windows'>
+        <div class='window1'>
+          <img src='images/window1.jpg' alt='window1'>
+          <p>Одностворчатое</p>
+        </div>
+        <div class='window2'>
+          <img src='images/window2.jpg' alt='window2'>
+          <p>Двухстворчатое</p>
+        </div>
+        <div class='window3'>
+          <img src='images/window3.jpg' alt='window3'>
+          <p>Трехстворчатое</p>
+        </div>
+        <div class='window4'>
+          <img src='images/window4.jpg' alt='window4'>
+          <p>Балконный блок</p>
+        </div>
+        <div class='window5'>
+          <img src='images/window5.jpg' alt='window5'>
+          <p>Остекление балкона</p>
+        </div>
+      </div>
+      <div class='calc'>
+        <img src='images/window1.jpg' alt='window1' class='calc_choice'>
+        <p class='window_width'>ширина</p>
+        <p class='window_height'>высота</p>
+        <div class='enter'>
+          <div class='name_width'>
+            <p>ширина, см</p>
+            <input type="text" placeholder="120" class='enter_width'>
+          </div>
+          <p class='multi'>x</p>
+          <div class='name_height'>
+            <p>высота, см</p>
+            <input type="text" placeholder="120" class='enter_height'>
+          </div>
+        </div>
+        <div class='choice'>
+          <p>Одностворчатое окно KBE</p>
+          <p>1. Критерий выбора </p>
+          <input type='radio' id='punkt1' value='punkt1'>
+          <label for='punkt1' class='punkt1'>пункт выбора 1</label>
+          <input type='radio' id='punkt2' value='punkt2'>
+          <label for='punkt2' class='punkt2'>пункт выбора 2</label>
+          <input type='radio' id='punkt3' value='punkt3'>
+          <label for='punkt3' class='punkt3'>пункт выбора 3</label>
+          <p>2. Выберите открывание створки</p>
+          <select name='stvorki'>
+            <option value=1 selected>Не открывается</option>
+            <option value=2>Открывается</option>
+            <option value=3>Без створок</option>
+          </select>
+        </div>
+        <div class='count'>
+          <input type='text' placeholder='Введите номер'>
+          <input type='button' value='Рассчитать'>
+        </div>
+      </div>
     </div>
   </div>
-
+  <div class='footer'>
+    <div class='footer_content'>
+      <p id='Copy'>&copy; 2020 Test_Great_Consult</p>
+      <ul>
+        <li><a href='' alt='Главная'>Главная</a></li>
+        <li><a href='' alt='Заказ'>Заказ</a></li>
+        <li><a href='' alt='О нас'>О нас</a></li>
+      </ul>
+      <p>
+        <a href='' alt='Почта' title='Почта'>
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        </a>
+        <a href='' alt='Вконтакте' title='Вконтакте'>
+          <i class="fa fa-vk" aria-hidden="true"></i>
+        </a>
+        <a href='' alt='Facebook' title='Facebook'>
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a href='' alt='Instagram' title='Instagram'>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+      </p>
+    </div>
+  </div>
 </body>
