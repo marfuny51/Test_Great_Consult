@@ -8,17 +8,15 @@
   <link rel='stylesheet' href='style.css' type='text/css'>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
   <script src="https://use.fontawesome.com/c609f307c0.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
   <div class='header'>
     <div class='header_content'>
       <div class='header_logo'>
-        <img src='images/2672302.png' alt='logo'>
-        <div class='name_company'>
-          Great Consult
-          <p>Самая клевая компания</p>
-        </div>
+        <a href=''><img src='images/logotip.png' alt='logo'></a>
+        <p class='name_company'>Самая клевая компания</p>
       </div>
       <div class='header_phone'>
         <a href="tel:+74997777777">+7(499) 777-77-77</a><br>
@@ -37,20 +35,17 @@
   </div>
   
   <div class='f3'>
-    <div class='slider'>
-
-    </div>
-    <div class='buttons'>
-      <div class='button'>
-        <div class='button2'></div>
-      </div>
-      <div class='button_2'>
-        <div class='button2_2'></div>
-      </div>
-      <div class='button_3'>
-        <div class='button2_3'></div>
-      </div>
-    </div>
+    <ul id="slider">
+      <li><img src='images/image1.png'/></li>
+      <li><img src='images/image2.png'/></li>
+      <li><img src='images/image3.png'/></li>
+    </ul>
+  
+    <ul id="dots">   
+      <li class="active"></li>
+      <li></li>
+      <li></li>
+    </ul>
   </div>
 
   <div class='f4'>
@@ -126,7 +121,7 @@
   <div class='footer'>
     <div class='footer_content'>
       <p id='Copy'>&copy; 2020 Test_Great_Consult</p>
-      <ul>
+      <ul class='pages'>
         <li><a href='' alt='Главная'>Главная</a></li>
         <li><a href='' alt='Заказ'>Заказ</a></li>
         <li><a href='' alt='О нас'>О нас</a></li>
@@ -148,6 +143,7 @@
     </div>
   </div>
   <script src="script.js"></script>
+  <script src="slider.js"></script>
 </body>
 
 </html>

@@ -82,4 +82,3 @@ function chooseWindow5(EO) {
   windowImage.style.left = '6vw';
   windowImage.style.top = '5vw';
 }
-
